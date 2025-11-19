@@ -163,6 +163,8 @@ def optimize_and_execute():
     raw_tx = getattr(signed_txn, "rawTransaction", None) or getattr(signed_txn, "raw_transaction", None)
     tx_hash = w3.eth.send_raw_transaction(raw_tx)
     print(f" Transaction sent successfully! Tx Hash: {tx_hash.hex()}\n")
+    return tx_hash.hex()
+
 
 # ======================================================
 # 9️⃣ MAIN
