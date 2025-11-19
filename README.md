@@ -1,58 +1,52 @@
-GasScope — AI + Blockchain Gas Optimizer
-An AI-powered gas fee prediction & smart contract automation system using LSTM + Sepolia Blockchain
-📌 Overview
-GasScope is an AI-driven system designed to predict, optimize, and automatically execute Ethereum smart contracts only when gas prices are low.
-It integrates:
+# 🚀 GasScope — AI + Blockchain Gas Optimizer  
+### AI-powered gas fee prediction + automated Sepolia smart contract execution
 
-LSTM deep learning for gas price forecasting
+## 📌 Overview
+*GasScope* predicts Ethereum gas fees and automatically executes a smart contract only when gas prices are low.  
+It combines:
 
-Real-time live gas feed (via Blocknative API)
+- 🧠 *LSTM deep learning* for gas forecasting  
+- ⚡ *Real-time gas feed* via Blocknative API  
+- 🔗 *Web3.py* blockchain interaction  
+- 🤖 *Auto smart-contract execution* based on thresholds  
+- 📊 *Streamlit dashboard* for live monitoring  
 
-Automated threshold-based execution of a Solidity smart contract
+This system helps avoid high gas fees by executing transactions at the most cost-efficient time.
 
-Blockchain interaction using Web3.py
+---
 
-Streamlit UI dashboard for live monitoring
+## 🔥 Features
 
-This project solves the real-world challenge of high blockchain gas fees by enabling intelligent, automated contract execution at the most cost-efficient time.
+### ✅ AI-Based Gas Forecasting
+- LSTM model trained on historical gas data  
+- Predicts next-step gas using 24-time-step sequences  
+- Live-adjusted prediction for higher accuracy  
 
-🚀 Features
-✅ AI-Based Gas Price Forecasting
+### ✅ Real-Time Gas Tracking
+- Fetches live gas feed (Blocknative API)  
+- Continuously updates new_blockchain.csv  
 
-Uses an LSTM model trained on historical gas prices
+### ✅ Blockchain Automation (Sepolia)
+Auto-calls your smart contract when: optimized_prediction <= smart_contract_threshold
 
-Predicts future gas cost using 24-time-step sequences
+- Uses Web3.py + Infura  
+- Ensures execution only during *low gas windows*
 
-Adjusts prediction closer to live feed for accuracy
+### ✅ Streamlit UI
+- Live gas feed graph  
+- Real-time LSTM predictions  
+- Smart contract threshold viewer  
+- One-click *Optimize + Execute*  
+- Shows last 20 gas entries  
 
-✅ Real-Time Gas Tracking
+---
 
-Fetches live gas data via Blocknative
+## 📸 Screenshots
 
-Continuously appends to dataset (new_blockchain.csv)
+<img width="1886" height="909" alt="Screenshot" src="https://github.com/user-attachments/assets/dd5df129-33c1-41d8-874a-7fe4cef87985" />
 
-✅ Blockchain Automation
+<img width="1909" height="971" alt="Screenshot" src="https://github.com/user-attachments/assets/51fa78ea-7a07-441f-9d5a-ee215c5e16fc" />
 
-Connects to Sepolia Testnet using Infura
+<img width="1895" height="917" alt="Screenshot" src="https://github.com/user-attachments/assets/688d11c0-928e-4004-88c0-48c4e15520ac" />
 
-Automatically triggers executeTransaction() when:
-
-optimized_predicted_price ≤ smart_contract_threshold
-
-
-Ensures transactions occur only during low gas price periods
-
-✅ Streamlit UI
-
-Live gas feed
-
-Real-time predictions
-
-Smart contract threshold viewer
-
-One-click optimization + execution
-
-Display of latest 20 gas records
-<img width="1886" height="909" alt="Screenshot 2025-11-20 013909" src="https://github.com/user-attachments/assets/dd5df129-33c1-41d8-874a-7fe4cef87985" />
-<img width="1909" height="971" alt="image" src="https://github.com/user-attachments/assets/51fa78ea-7a07-441f-9d5a-ee215c5e16fc" />
-
+---
