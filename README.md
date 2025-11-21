@@ -43,10 +43,10 @@ Auto-calls your smart contract when: optimized_prediction <= smart_contract_thre
 
 ## 📸 Screenshots
 
-<img width="1886" height="909" alt="Screenshot" src="https://github.com/user-attachments/assets/dd5df129-33c1-41d8-874a-7fe4cef87985" />
+![ss1](https://github.com/user-attachments/assets/f30fa692-3a62-4f70-8cf2-1352837b7c4a)
 
-<img width="1909" height="971" alt="Screenshot" src="https://github.com/user-attachments/assets/51fa78ea-7a07-441f-9d5a-ee215c5e16fc" />
 
+![ss2](https://github.com/user-attachments/assets/997861f2-d8ea-429f-85d3-16aff0e44023)
 <img width="1895" height="917" alt="Screenshot" src="https://github.com/user-attachments/assets/688d11c0-928e-4004-88c0-48c4e15520ac" />
 
 ---
